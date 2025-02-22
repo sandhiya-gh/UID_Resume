@@ -72,7 +72,7 @@ This project contains **seven main pages**, each serving a unique purpose.
 ---
 
 ## 📜 License
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the **AVV License**.
 
 ---
 
