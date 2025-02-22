@@ -1,0 +1,226 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.5em;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+section {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    color: #ffd700;
+}
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+    background:linear-gradient(135deg,#17131c );
+    border-radius: 10px;
+}
+
+.contact-info {
+    width: 40%;
+    background: linear-gradient(135deg,#060709);
+    color: rgb(234, 227, 227);
+    padding: 30px;
+}
+
+.contact-form {
+    width: 60%;
+    padding: 30px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    background: #0a0b0b;
+    color: white;
+    padding: 10px;
+}
+.project {
+    background: #ffffff;
+    color: #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #667eea;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech {
+    font-size: 14px;
+    font-weight: bold;
+    color: #764ba2;
+}
+
+.project p {
+    font-size: 14px;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.project ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.project ul li {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.project ul li strong {
+    color: #007b7f;
+}
+
+.skills-container {
+    background: #ffffff;
+    color: #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #667eea;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.skills-container p {
+    font-size: 16px;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.skills-container strong {
+    font-weight: bold;
+    color: #764ba2;
+}
+/* Align buttons & social links to the top-right corner */
+.top-right-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Resume Download Button */
+#downloadResume {
+    background: #ff6600;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#downloadResume:hover {
+    background: #e55d00;
+}
+
+/* Social Media Buttons */
+.social-btn {
+    background: #444;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-btn:hover {
+    background: #666;
+}
+
+/* Dark Mode Toggle */
+#toggleDarkMode {
+    background: #222;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#toggleDarkMode:hover {
+    background: #444;
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+
+.dark-mode nav ul li a {
+    color: #ffd700;
+}
